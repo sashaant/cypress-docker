@@ -1,0 +1,28 @@
+{
+  "name": "cypress-docker",
+  "version": "1.0.0",
+  "description": "Cypress with Docker",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashaant/cypress-docker.git"
+  },
+  "keywords": [
+    "Cypress",
+    "Docker"
+  ],
+  "author": "Sasha Antonenko <antonenko.qa@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sashaant/cypress-docker/issues"
+  },
+  "homepage": "https://github.com/sashaant/cypress-docker#readme",
+  "dependencies": {
+    "cypress": "^6.5.0",
+    "prettier": "^2.2.1"
+  }
+}
