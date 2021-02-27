@@ -9,3 +9,6 @@ Re-write cypress open comand
     "cy:open": "cypress open",
     "cy:run": "cypress run"
   },
+
+  Launch Docker command:
+  docker build -t cypress .
