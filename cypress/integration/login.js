@@ -32,7 +32,7 @@ describe('working with inputs', () => {
         cy.contains('Sign in').click()
     })
 
-    it('should display error message', () => {
+    it('should display error message 1', () => {
         cy.get('.alert-error')
             .should('be.visible')
             .and('contain', 'Login and/or password are wrong.')
