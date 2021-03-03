@@ -12,3 +12,4 @@ Re-write cypress open comand
 
   Launch Docker command:
   docker build -t cypress .
+  docker run <image>

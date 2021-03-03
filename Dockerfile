@@ -8,4 +8,4 @@ RUN npm install
 COPY . .
 
 RUN $(npm bin)/cypress verify
-RUN ["npm", "run", "cy:run"]
+CMD ["npm", "run", "cy:run"]
